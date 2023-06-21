@@ -1,0 +1,124 @@
+*{
+    overflow-x: hidden;
+    margin: 0px;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+}
+.navBar ul {
+    display: flex;
+    justify-content:space-evenly;
+    width: 500px;
+    list-style: none;
+}
+ul a{
+   text-decoration: none; 
+   color: black;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+#getStarted{
+    background: #3D71BD;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+#signIn{
+    background: white;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    border: solid 1px black;
+}
+.FirstContainer{
+    background-image: url(../assests/AboutUsPhotos/doctor1.svg);
+    height: 600px;
+}
+.first{
+      position: absolute;
+      bottom: 90;
+      background-image: url(../assests/AboutUsPhotos/doctor4.svg);
+      height: 350px;
+      width: 380px;
+      background-repeat: no-repeat;
+      margin-left: 100px;
+      margin-top: 200px;
+      z-index: 1; 
+}
+.second{
+     position: absolute;
+     background-image: url(../assests/AboutUsPhotos/doctor3.svg);
+     height: 350px;
+     width: 380px;
+     background-repeat: no-repeat;
+     margin-top: 100px;
+     margin-left: 400px;
+}
+.third{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 325px;
+    background-image: url(../assests/AboutUsPhotos/doctor5.svg);
+    height: 350px;
+    width: 380px;
+    background-repeat: no-repeat;
+    z-index: 1;
+} 
+
+.rightImages{
+    position: relative;
+    display: flex;
+    height: 800px;
+    width: 800px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.secondContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rightContainer{
+    margin-left: 20px;
+    margin-top: 110px;
+}
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.secondRow{
+    display: flex;
+    justify-content: space-between;
+    width: 447px;
+    margin-bottom: 20px;
+}
+.thirdRow{
+    display: flex;
+    justify-content: space-between;
+    width: 415px;
+}
+.thirdContainer{
+    background-image: url(../assests/PractitionerPhotos/doctor2.svg);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.image-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.fifthContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    border: 3px solid #E5E5E5;
+    border-radius: 7px;
+    height: 100px;
+    width: 1150px;
+}

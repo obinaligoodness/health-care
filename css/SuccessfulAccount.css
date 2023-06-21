@@ -1,0 +1,14 @@
+body {
+    background-image: url("../assests/sethoscope.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .firstContainer{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    margin-left: 400px;
+  }
+  

@@ -1,0 +1,38 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+}
+.navBar ul {
+    display: flex;
+    justify-content:space-evenly;
+    width: 500px;
+    list-style: none;
+}
+ul a{
+   text-decoration: none; 
+   color: black;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+#getStarted{
+    background: #3D71BD;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+#signIn{
+    background: white;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    border: solid 1px black;
+}
+.FirstContainer{
+    background-image: url(../assests/PractitionerPhotos/doctor1.svg);
+    height: 600px;
+}

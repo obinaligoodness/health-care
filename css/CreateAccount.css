@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    overflow-x: hidden;
+}
+.backGroundContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+}
+
+#emailAddress {
+    border:solid 2px #E5E5E5;
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+}#name {
+    border:solid 2px #E5E5E5;
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+}
+#Password{
+    border:solid 2px #E5E5E5;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    
+}
+#signButton{
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3D71BD;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.innerContainerForRight{
+    padding-left: 70px;
+    margin-top: 80px;
+}
+#googleButton{
+    margin-top: 30px;
+    width: 400px;
+    height: 67px;
+    margin-bottom: 30px;
+    border-radius: 10px; 
+    background: white;
+    border:solid #C9C9C9;
+}
+#facebookButton{
+    margin-top: 10px;
+    width: 400px;
+    height: 67px;
+    margin-bottom: 30px;
+    border-radius: 10px; 
+    background: white;
+    border:solid #C9C9C9;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+#createAccount{
+    border:none;
+    background: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.innerContainerForRight h1{
+    width: 590px;
+    height: 55px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px
+}
+#sign{
+    background-color: white;
+    margin-top: 0px;
+    height:30px;
+    width: 100px;
+}
+#logo{
+    padding-right: 20px;
+    margin-top: 12px;
+}
+.lineContainer{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    position: relative;
+}
+#sign{
+    position: absolute;
+    background-color: white;
+    top: -0.5em;
+    left: 0;
+    margin-left: 153px;
+    border: none;
+}
